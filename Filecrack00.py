@@ -153,7 +153,7 @@ def reg():
         print ' \x1b[1;92mCopy the id and send to admin'
         print ' \x1b[1;92mYour id: ' + to
         raw_input('\x1b[1;93m Press enter to send id')
-        os.system('xdg-open https://wa.me/+923472860857')
+        os.system('xdg-open https://wa.me/+923428886289')
         reg()
 
 
@@ -166,7 +166,7 @@ def reg2():
     print ' Your id: ' + id
     print ''
     raw_input(' Press enter to go to whatsapp ')
-    os.system('xdg-open https://wa.me/+923472860857')
+    os.system('xdg-open https://wa.me/+923428886289')
     sav = open('/sdcard/.hst.txt', 'w')
     sav.write(id)
     sav.close()
